@@ -1,0 +1,28 @@
+//?Mobile - 600px and below
+@media screen and (max-width: 600px) {
+    .logo {
+        margin-bottom: 5px;
+    }
+
+    .btn {
+        display: none;
+    }
+
+    .cta {
+        display: block;
+    }
+
+    nav {
+        display: block;
+        text-align: center;
+    }
+
+    .nav-ul {
+        justify-content: center;
+        border-bottom: 2px solid #fff;
+        background-color: rgba(0,0,0,.2);
+        border-radius: 3px 3px 0 0;
+        width: 70%;
+        margin: 0 auto;
+    }
+}
